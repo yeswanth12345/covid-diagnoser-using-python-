@@ -128,7 +128,7 @@ R13.pack( anchor = W)
 #Button(top,text='data',command=covid).grid(row=4,column=2)
 from PIL import ImageTk,Image
 canvas=Canvas(top,width=10000,height=10000)
-image=ImageTk.PhotoImage(Image.open("C:\\Users\\sadiq shaik\\Desktop\\h\\112.png"))
+image=ImageTk.PhotoImage(Image.open("C:\\Users\\yesh\\Desktop\\h\\112.png"))
 canvas.create_image(0,0,anchor=NW,image=image)
 canvas.pack()
 
